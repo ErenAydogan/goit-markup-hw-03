@@ -184,7 +184,7 @@ main {
 }
 
 .portfolio {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -198,13 +198,17 @@ main {
 }
 .portfolio__list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 80%;
 }
 .portfolio__list-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   list-style: none;
+  width: 33%;
 }
 .portfolio__list-item__img {
   width: 360px;

@@ -206,7 +206,7 @@ main {
 }
 
 .portfolio {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 
@@ -221,13 +221,19 @@ main {
 
     &__list {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         width: 80%;
 
         &-item {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             list-style: none;
+            width: 33%;
+
+
             &__img {
                 width: 360px;
                 height: 300px;
