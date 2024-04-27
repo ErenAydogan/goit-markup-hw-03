@@ -187,6 +187,7 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .portfolio__title {
   font-size: 36px;
@@ -194,12 +195,11 @@ main {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: #7072a5;
+  width: 80%;
 }
 .portfolio__list {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   width: 80%;
 }
