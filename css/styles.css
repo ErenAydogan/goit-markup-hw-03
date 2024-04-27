@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #434455;
@@ -8,13 +11,21 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   height: 72px;
+  width: 80%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 10px 20px;
   width: 50%;
@@ -49,7 +60,7 @@ header {
 
 .contact {
   display: flex;
-  width: 40%;
+  width: 25%;
   justify-content: center;
   align-items: center;
 }
@@ -69,6 +80,7 @@ header {
 
 .announce {
   height: 600px;
+  width: 100%;
   background-color: #2E2F42;
   display: flex;
   flex-direction: column;
@@ -101,6 +113,7 @@ header {
 .mission {
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 .mission__title {
   font-weight: 500;
@@ -131,6 +144,9 @@ header {
   color: #434455;
 }
 
+.team {
+  width: 80%;
+}
 .team__title {
   font-size: 36px;
   line-height: 1.11;
@@ -168,11 +184,24 @@ header {
 }
 
 .portfolio {
-  width: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.portfolio__title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolio__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
 }
 .portfolio__list-item {
   list-style: none;
@@ -212,6 +241,7 @@ header {
   color: #4d5ae5;
   text-decoration: none;
   width: 264px;
+  margin-left: 10%;
 }
 .footer__logo-2 {
   color: #f4f4fd;
@@ -221,6 +251,7 @@ header {
   line-height: 1.5;
   color: #F4F4FD;
   letter-spacing: 0.02em;
+  margin-left: 10%;
 }
 
 /*# sourceMappingURL=styles.css.map */
