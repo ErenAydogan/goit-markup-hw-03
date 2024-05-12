@@ -4,6 +4,38 @@ img {
     display: block;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    & .container {
+        display: flex;
+    }
+}
+
+.navigation {
+
+    & .container {
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 40px;
+
+        &-item {
+            padding: 24px 0;
+        }
+    }
+}
+
+.contact{
+    &__list{
+        display: flex;
+        gap: 40px;
+    }
+}
+
 
 .portfolio {
     padding: 120px 0;

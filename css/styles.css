@@ -2,6 +2,31 @@ img {
   display: block;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+  display: flex;
+}
+
+.navigation .container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.navigation__list {
+  display: flex;
+  gap: 40px;
+}
+.navigation__list-item {
+  padding: 24px 0;
+}
+
+.contact__list {
+  display: flex;
+  gap: 40px;
+}
+
 .portfolio {
   padding: 120px 0;
 }
