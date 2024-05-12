@@ -18,8 +18,11 @@ img {
         row-gap: 48px;
 
         &-item{
-            width: calc((100% - 48px) / 3);
-            
+
+            &__img {
+                width: calc((100% - 48px) / 3);
+            }
+
             &__title{
                 margin-bottom: 8px;
             }
