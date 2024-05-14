@@ -72,11 +72,16 @@ img {
 }
 
 
+.visually-hidden {
+    visibility: hidden;
+}
+
+
 .mission {
     padding: 120px 0;
 
     &__title{
-        visibility: hidden;
+        
     }
 
     &__list {

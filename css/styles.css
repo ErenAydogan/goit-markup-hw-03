@@ -57,11 +57,12 @@ img {
   cursor: pointer;
 }
 
+.visually-hidden {
+  visibility: hidden;
+}
+
 .mission {
   padding: 120px 0;
-}
-.mission__title {
-  visibility: hidden;
 }
 .mission__list {
   display: flex;
