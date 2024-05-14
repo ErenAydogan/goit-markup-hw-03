@@ -72,6 +72,29 @@ img {
 }
 
 
+.mission {
+    padding: 120px 0;
+
+    &__title{
+        visibility: hidden;
+    }
+
+    &__list {
+        display: flex;
+        gap: 24px;
+
+        &-item {
+            width: calc((100% - 72px) / 4);
+
+            &__title {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+
+
+
 .portfolio {
     padding: 120px 0;
 

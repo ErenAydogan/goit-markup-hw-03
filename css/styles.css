@@ -57,6 +57,23 @@ img {
   cursor: pointer;
 }
 
+.mission {
+  padding: 120px 0;
+}
+.mission__title {
+  visibility: hidden;
+}
+.mission__list {
+  display: flex;
+  gap: 24px;
+}
+.mission__list-item {
+  width: calc((100% - 72px) / 4);
+}
+.mission__list-item__title {
+  margin-bottom: 8px;
+}
+
 .portfolio {
   padding: 120px 0;
 }
