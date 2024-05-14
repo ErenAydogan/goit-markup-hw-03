@@ -75,6 +75,31 @@ img {
   margin-bottom: 8px;
 }
 
+.team {
+  padding: 120px 0;
+}
+.team__title {
+  margin-bottom: 72px;
+}
+.team__list {
+  display: flex;
+  gap: 24px;
+}
+.team__list-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.team__list-item div {
+  padding: 32px 0;
+}
+.team__list-item__title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team__list-item__job {
+  text-align: center;
+}
+
 .portfolio {
   padding: 120px 0;
 }
