@@ -1,33 +1,50 @@
 $white-1: #e7e9fc;
 
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img {
     display: block;
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    & .container {
-        display: flex;
-    }
+
+}
+
+.container{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .navigation {
+    display: flex;
+    align-items: center; 
 
-    & .container {
-        width: 1158px;
-        margin: 0 auto;
-        padding: 0 15px;
+    &__logo{
+        margin-right: 76px;
     }
 
     &__list {
-        display: flex;
+        display: flex; 
         gap: 40px;
 
         &-item {
-            padding: 24px 0;
+
+            &__link{
+                padding: 24px 0;
+            }
         }
     }
 }
+
 
 .contact{
     &__list{
@@ -35,7 +52,6 @@ img {
         gap: 40px;
     }
 }
-
 
 .portfolio {
     padding: 120px 0;

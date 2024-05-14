@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 img {
   display: block;
 }
@@ -5,20 +13,26 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header .container {
-  display: flex;
-}
 
-.navigation .container {
+.container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation__logo {
+  margin-right: 76px;
 }
 .navigation__list {
   display: flex;
   gap: 40px;
 }
-.navigation__list-item {
+.navigation__list-item__link {
   padding: 24px 0;
 }
 
