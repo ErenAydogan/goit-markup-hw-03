@@ -16,6 +16,18 @@ img {
     display: block;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -147,13 +159,28 @@ img {
         color: #2e2f42;
     }
 
-    &__list-item__desc {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: .02em;
-        color: #434455;
+    &__list {
+        display: flex;
+        gap: 24px;
+
+        &-item {
+            width: calc((100% - 72px) / 4);
+
+            &__title {
+                margin-bottom: 8px;
+            }
+
+            &_desc {
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: .02em;
+                color: #434455;
+            }
+        }
     }
+
 }
+
 
 .our-team {
     background-color: #F4F4FD;
