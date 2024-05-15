@@ -103,6 +103,7 @@ img {
     background-color: #2e2f42;
 
     &__title {
+        max-width: 496px; 
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
@@ -119,6 +120,11 @@ img {
         letter-spacing: .04em;
         color: #fff;
         cursor: pointer;
+        display: block; 
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 
         &:hover {
             background-color: #404bbf;
@@ -130,6 +136,7 @@ img {
 }
 
 .how-we-work {
+    padding: 188px 0;
     &__title,
     &__list-item__title {
         font-weight: 500;
