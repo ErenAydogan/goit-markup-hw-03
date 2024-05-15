@@ -46,10 +46,8 @@ img {
   display: flex;
   gap: 40px;
 }
-.header__navigation__list-item {
-  padding: 24px 0;
-}
 .header__navigation__list-item__link {
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
