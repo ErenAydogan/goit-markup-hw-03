@@ -45,6 +45,8 @@ img {
 .header__navigation__list {
   display: flex;
   gap: 40px;
+}
+.header__navigation__list-item {
   padding: 24px 0;
 }
 .header__navigation__list-item__link {
