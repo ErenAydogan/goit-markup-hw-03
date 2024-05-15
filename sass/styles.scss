@@ -255,21 +255,28 @@ img {
             padding: 32px 16px;
             border: 1px solid #e7e9fc; 
             border-top: none; 
-            
-            &__name {
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 1.2;
-                letter-spacing: .02em;
-                color: #2e2f42;
-                margin-bottom: 8px;
-            }
-    
-            &__type {
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: .02em;
-                color: #434455;
+
+            &__container {
+                padding: 32px 16px;
+                border: 1px solid #e7e9fc;
+                border-top: none; 
+
+                &-name {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: .02em;
+                    color: #2e2f42;
+                    margin-bottom: 8px;
+                    
+                }
+        
+                &-type {
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: .02em;
+                    color: #434455;
+                }
             }
         }
     }
