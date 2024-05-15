@@ -156,6 +156,7 @@ img {
 
 .our-team {
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 .our-team__title {
   font-size: 36px;
@@ -164,22 +165,35 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.our-team__list {
+  display: flex;
+  gap: 24px;
 }
 .our-team__list-member {
   background-color: #fff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-.our-team__list-member__name {
+.our-team__list-member__container {
+  padding: 32px 0;
+}
+.our-team__list-member__container-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
-.our-team__list-member__job {
+.our-team__list-member__container-job {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .our-portfolio__title {

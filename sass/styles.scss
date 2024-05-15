@@ -185,6 +185,7 @@ img {
 
 .our-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 
     &__title {
         font-size: 36px;
@@ -193,23 +194,39 @@ img {
         letter-spacing: .02em;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
     }
-    &__list-member {
-        background-color: #fff;
+    &__list{
+        display: flex;
+        gap: 24px; 
 
-        &__name {
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: .02em;
-            color: #2e2f42;            
-        }
+        &-member {
+            background-color: #fff;
+            width: calc((100% - 72px) / 4); 
+            border-radius: 0px 0px 4px 4px;
+            
+            &__container {
+                padding: 32px 0;
 
-        &__job {
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: .02em;
-            color: #434455;
+
+                &-name {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: .02em;
+                    color: #2e2f42;   
+                    text-align: center;
+                    margin-bottom: 8px;         
+                }
+        
+                &-job {
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: .02em;
+                    color: #434455;
+                    text-align: center; 
+                }
+            }
         }
     }
 }
